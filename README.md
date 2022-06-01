@@ -5,5 +5,7 @@ The notebooks are used to send tasks to the data nodes.
 2. Activate virtual environement and start jupyter lab
 3. Follow the sections in the notebook 
 
+Note : Please obtain the privkey separately
+
  
 
