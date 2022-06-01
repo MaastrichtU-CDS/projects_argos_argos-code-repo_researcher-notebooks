@@ -30,5 +30,10 @@ def get_collab(client):
             organization_details['last_seen'].append(last_seen)      
     details = pd.DataFrame(organization_details)
     return details
+
+def parse_results(task):
+    for results in task['results']:
+        result_id = results['id']
+        
         
 
